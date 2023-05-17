@@ -38,7 +38,7 @@ module.exports = async config => {
 
     client: {
       env: {
-        // used in the test helper to add failed test debug logs
+        // used in the test helper to add failed test debug logs to test
         DUMP_FAILED_TEST_LOGS: process.env.DUMP_FAILED_TEST_LOGS
       },
       // reports look better when not randomized
